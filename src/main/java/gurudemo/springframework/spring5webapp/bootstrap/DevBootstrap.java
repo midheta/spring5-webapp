@@ -30,8 +30,7 @@ public class DevBootstrap implements ApplicationListener<ContextRefreshedEvent> 
     }
 
 
-    public void initData()
-    {
+    public void initData() {
 
         Author eric = new Author("Eric", "Evans");
         Publisher harper = new Publisher("Harper Collins", "Address 123");
